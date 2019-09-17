@@ -1,3 +1,5 @@
+//Page Code
+//Variables
 let drop1 = $("#b1");
 let abo = $(".About");
 let drop2 = $("#b2");
@@ -8,7 +10,7 @@ let count1 = 0;
 let count2 = 0;
 let count3 = 0;
 
-
+//Swap to About Me page
 drop1.on("click", function () {
     abo.fadeToggle();
     count1++;
@@ -23,6 +25,7 @@ drop1.on("click", function () {
     }
 });
 
+//Swap to Projects Page
 drop2.on("click",function () {
      pro.fadeToggle();
      count2++;
@@ -37,6 +40,8 @@ drop2.on("click",function () {
     }
 
 });
+
+//Swap to Contact Me Page
 drop3.on("click", function () {
     con.fadeToggle();
     count3++;
