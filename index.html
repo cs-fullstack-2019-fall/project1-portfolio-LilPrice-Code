@@ -38,12 +38,14 @@
             <table>
                 <tr>
                     <td>
-                        <h2>About Me</h2>
-                        <p>My name is Shoshard Price, I"m 22 year old Full-Stack Coding Student with CodeCrew Code School.</p>
-                        <h2>Early Life</h2>
-                        <p>I was born and raised in Memphis,TN. In my early days growing up, football, NFL, and gaming were the only thing on my mind as a kid growing. Coding only become a interest after class in during my sophomore year of high school. In that class I learn how deep code can be and started my research into coding and even coded in the robotics club in high school.</p>
-                        <h2>Code Crew</h2>
-                        <p>Code Crew out of the gate was the first time I coded since high school. And with learning Full-Stack Programming in such a short period of time can help me in this every changing job marketing I'm shooting for.</p>
+                        <h2 class="amhead">About Me</h2>
+                        <p class="abmeText">My name is Shoshard Price, I"m 22 year old Full-Stack Coding Student with CodeCrew Code School.</p>
+                        <h2 class="amhead">Starting Line</h2>
+                        <p class="abmeText">I was born and raised in Memphis,TN. I first starting coding in high school and even programmed for the
+                            robotics club on my senior year.</p>
+                        <p class="abmeText">My overall endgame is to make video games with the skills I'm best suited for and the ability to keep
+                            grow as a developer. Over the course of be in Code Crew and using and talking other sources, it has help develop
+                            the necessary skills I needed in order to become a better and adaptive developer.</p>
                     </td>
                     <td>
                         <img   class="About" id="pic1" src="markus-spiske-68ZlATaVYIo-unsplash.jpg" height="576" width="200"/>
@@ -58,11 +60,10 @@
         <h3>High School</h3>
         <p>Southwind High School</p>
         <p>Class of 2015</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13069.282824657621!2d-89.80078500000005!3d35.023706000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdbff624e69f87c!2sSouthwind%20High%20School!5e0!3m2!1sen!2sus!4v1568663587133!5m2!1sen!2sus" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         <h3>College</h3>
         <p>CodeCrew Coding School</p>
         <p>Currently Enrolled</p>
-        <a href="https://www.code-crew.org"><img src="download.png" height="51" width="251"/></a>
+        <a href="https://www.code-crew.org" ><img id="code" src="download.png" height="51" width="251"/></a>
     </aside>
 
     <!--Projects Drop page-->
@@ -76,54 +77,49 @@
     </aside>
     <section class="Proj" >
         <h2 id = "project">Projects</h2>
-        <p class="project">
-            <a href="Blackjack/black.html">
-                <p class="project">
-                    Black Jack
-                </p>
-                <p class="project">
-                    <img src="black_pic.png" height="80" width="140"/>
-                </p>
-            </a>
-        </p>
+        <table class="project">
+            <tr>
+                <th>
+                <a href="projects/Blackjack/black.html">Black Jack</a>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                <img src="black_pic.png" height="80" width="140"/>
+                </td>
+            </tr>
+
+        </table>
     </section>
-    <aside class="Proj" id="pro2">
+    <aside class="Proj pages" id="pro2">
         <h2>Weekly Reflections</h2>
+        <h3>Week 1</h3>
+        <p class="reflect"><iframe width="200" height="105" src="https://www.youtube.com/embed/Wl-XCgh1-zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <h3>Week 2</h3>
+        <p class="reflect"><iframe width="200" height="105" src="https://www.youtube.com/embed/9pIVRbeVBzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <h3>Week 3</h3>
+        <p class="reflect"><iframe width="200" height="105" src="https://www.youtube.com/embed/zLeZ5-mqYcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <button id="page1">Next Page</button>
+    </aside>
+    <aside class="pages" id="reflect2">
+        <h2>Weekly Reflections</h2>
+        <h3>Week 4</h3>
+        <p class="reflect"><iframe width="200" height="105" src="https://www.youtube.com/embed/LjKVJyow6zc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <p class="reflect"></p>
+        <p class="reflect"></p>
+        <button id="page2">Prev</button>
     </aside>
 
     <!--Contact Me Drop page-->
     <aside CLASS="Cont" id="con1">
         <h2>Resume</h2>
-        <button id="dresume">Download Resume</button>
+        <p><img src="placeholder.jpeg" height="450" width="200"/></p>
+        <button id="dresume"><a href="placeholder.jpeg" download>Download Resume</a></button>
     </aside>
-    <section class="Cont">
-        <form id="big">
-            <h2>Contact Me</h2>
-            <fieldset id="sumbitform">
-                <legend>Contact Info</legend>
-                <label class="f1" for="name">Name:</label>
-                <input class="t1" type="text" id = "name" placeholder="Joe Name" required>
-                <label class="f1" for="companyName ">Company Name:</label>
-                <input class="t1" type="text" id="companyName " placeholder="Example.inc" required>
-                <label class="f1" for="email">Email or Phone:</label>
-                <input class="t1" type="text" id="email" placeholder="Name123@email.com or (123)123-4567" required>
-                <label class="f1" for="extra">Additional Email or Phone (Optional):</label>
-                <input class="t1" type="text" id="extra" placeholder="....">
-                <label class="f1" for="reason">Purpose of Contact:</label>
-                <textarea class="t1" id="reason" placeholder="Text Here....." required></textarea>
-            </fieldset>
-            <input class="t1" type="submit" value="Submit Info" id="sum">
-        </form>
-        <button id="gform">Google Form</button>
+    <section class="Cont" id="cont_sec">
+        <p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCeb0TAhnqqVkNjjNtBj8W68RdhIYVBqWcm0xdwmNQus8OaQ/viewform?embedded=true" width="700" height="575" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
     </section>
-    <aside class="Cont" id="con2">
-        <h2>Email Me</h2>
-        <button id="dmail">Direct Email</button>
-    </aside>
 
-    <section id="forms"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScuKLSwMeOmPLua3LNPR7n0PxEPAmBbZ-3CiSfhThzpqdONqw/viewform?embedded=true" width="600" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    <button id="bbutton">Back</button>
-    </section>
 
 </div>
 </body>
