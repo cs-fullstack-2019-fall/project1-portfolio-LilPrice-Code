@@ -25,7 +25,7 @@ body{
 section{
     padding: 1%;
     text-align: left;
-    height: 600px;
+    height: 650px;
     grid-column: 3/9;
     grid-row: 2;
 }
@@ -130,4 +130,90 @@ td{
 #project{
     font-size: 30px;
     text-align: center;
+}
+.project{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.t1,.f1{
+    font-size: 20px;
+    display: block;
+}
+.f1{
+    padding-top: 5%;
+}
+.t1{
+    width: 75%;
+}
+#big{
+
+    padding-left: 20%;
+    padding-right: 20%;
+}
+fieldset{
+     border: black 3px solid;
+
+}
+#sum{
+    width: 30%;
+    margin-top: 5%;
+    border: black 1px solid;
+    background-color: darkgray;
+}
+#sum:hover{
+    background-color: black;
+    color: darkgray;
+}
+
+#gform{
+    width: 30%;
+    margin-top: 5%;
+    border: black 1px solid;
+    background-color: darkgray;
+    font-size: 20px;
+}
+#gform:hover{
+    background-color: black;
+    color: darkgray;
+}
+#dresume{
+    margin-top: 5%;
+    border: black 1px solid;
+    background-color: darkgray;
+    font-size: 20px;
+
+}
+#dresume:hover{
+    background-color: black;
+    color: darkgray;
+}
+
+#dmail{
+    margin-top: 5%;
+    border: black 1px solid;
+    background-color: darkgray;
+    font-size: 20px;
+
+}
+#dmail:hover{
+    background-color: black;
+    color: darkgray;
+}
+#forms{
+     display: none;
+    text-align: center;
+    background-color: darkgray;
+}
+#bbutton{
+     margin-top: 5%;
+     border: black 1px solid;
+     background-color: darkgray;
+     font-size: 20px;
+
+}
+#bbutton:hover{
+    background-color: black;
+    color: darkgray;
 }

@@ -38,12 +38,10 @@
             <table>
                 <tr>
                     <td>
-                        <h1>About Me</h1>
+                        <h2>About Me</h2>
                         <p>My name is Shoshard Price, I"m 22 year old Full-Stack Coding Student with CodeCrew Code School.</p>
                         <h2>Early Life</h2>
                         <p>I was born and raised in Memphis,TN. In my early days growing up, football, NFL, and gaming were the only thing on my mind as a kid growing. Coding only become a interest after class in during my sophomore year of high school. In that class I learn how deep code can be and started my research into coding and even coded in the robotics club in high school.</p>
-                        <h2>Cross-Roads</h2>
-                        <p>During my Senior year of high I knew I wanted to make games but as a designer or a programmer! I pursuesed being a game designer but lacking some creative in a few areas, I took a step back and look at my options again. When Code Crew offer Full-Stack Programmer, I jumped at the opportunity.</p>
                         <h2>Code Crew</h2>
                         <p>Code Crew out of the gate was the first time I coded since high school. And with learning Full-Stack Programming in such a short period of time can help me in this every changing job marketing I'm shooting for.</p>
                     </td>
@@ -70,24 +68,62 @@
     <!--Projects Drop page-->
     <aside class="Proj" id="pro1">
         <H2>Skills/Languages</H2>
-        <p class="pic"><img class="pic" src="html_logo.png" height="100" width="100"/><img class="pic" src="css_logo.png" height="100" width="80"/></p>
-        <p><img  class="pic" src="39-397580_logo-javascript-pattern-copyright-framework-free-download-js.png" height="100"
-                width="80"/><img class="pic" src="62-626208_python-logo-png-transparent-background-python-logo-png.png"
-                                  height="80" width="80"/></p>
-        <p><img class="pic" src="git_logo.png" height="100" width="100"/></p>
+        <p>JavaScript</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Python</p>
+        <p>GitHub</p>
     </aside>
     <section class="Proj" >
         <h2 id = "project">Projects</h2>
-        <p><a href="Blackjack/black.html">Black Jack</a></p>
+        <p class="project">
+            <a href="Blackjack/black.html">
+                <p class="project">
+                    Black Jack
+                </p>
+                <p class="project">
+                    <img src="black_pic.png" height="80" width="140"/>
+                </p>
+            </a>
+        </p>
     </section>
     <aside class="Proj" id="pro2">
         <h2>Weekly Reflections</h2>
     </aside>
 
     <!--Contact Me Drop page-->
-    <aside CLASS="Cont" id="con1"></aside>
-    <section class="Cont"></section>
-    <aside class="Cont" id="con2"></aside>
+    <aside CLASS="Cont" id="con1">
+        <h2>Resume</h2>
+        <button id="dresume">Download Resume</button>
+    </aside>
+    <section class="Cont">
+        <form id="big">
+            <h2>Contact Me</h2>
+            <fieldset id="sumbitform">
+                <legend>Contact Info</legend>
+                <label class="f1" for="name">Name:</label>
+                <input class="t1" type="text" id = "name" placeholder="Joe Name" required>
+                <label class="f1" for="companyName ">Company Name:</label>
+                <input class="t1" type="text" id="companyName " placeholder="Example.inc" required>
+                <label class="f1" for="email">Email or Phone:</label>
+                <input class="t1" type="text" id="email" placeholder="Name123@email.com or (123)123-4567" required>
+                <label class="f1" for="extra">Additional Email or Phone (Optional):</label>
+                <input class="t1" type="text" id="extra" placeholder="....">
+                <label class="f1" for="reason">Purpose of Contact:</label>
+                <textarea class="t1" id="reason" placeholder="Text Here....." required></textarea>
+            </fieldset>
+            <input class="t1" type="submit" value="Submit Info" id="sum">
+        </form>
+        <button id="gform">Google Form</button>
+    </section>
+    <aside class="Cont" id="con2">
+        <h2>Email Me</h2>
+        <button id="dmail">Direct Email</button>
+    </aside>
+
+    <section id="forms"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScuKLSwMeOmPLua3LNPR7n0PxEPAmBbZ-3CiSfhThzpqdONqw/viewform?embedded=true" width="600" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <button id="bbutton">Back</button>
+    </section>
 
 </div>
 </body>
