@@ -66,42 +66,45 @@ footer{
       border: 0;
   }
 .About{
-    background-image: linear-gradient(to bottom, darkgray, cyan);
+    background-image: linear-gradient(to bottom, gray, cyan);
     display: none;
     background-color: darkgray;
 }
 #about1{
-    background-image: linear-gradient(to bottom left, darkgray, cyan);
+    background-image: linear-gradient(to bottom left, gray, cyan);
     display: none;
     grid-row: 2;
     grid-column: 1/3;
 }
 #about2{
-    background-image: linear-gradient(to bottom right, darkgray, cyan);
+    background-image: linear-gradient(to bottom right, gray, cyan);
     grid-column: 9/11;
     grid-row: 2;
 }
 .Proj{
     display: none;
-    background-color: darkgray;
+    background-image: linear-gradient(to bottom, gray, cyan);
 }
 #pro1{
     display: none;
     grid-row: 2;
     grid-column: 1/3;
+    background-image: linear-gradient(to bottom left, gray, cyan);
 }
 #pro2{
     grid-column: 9/11;
     grid-row: 2;
+    background-image: linear-gradient(to bottom right, gray, cyan);
 }
 .Cont{
     display: none;
-    background-color: darkgray;
+    background-image: linear-gradient(to bottom, gray, cyan);
 }
 #con1{
     display: none;
     grid-row: 2;
     grid-column: 1/3;
+    background-image: linear-gradient(to bottom left, gray, cyan);
 }
 #con2{
     grid-column: 9/11;
@@ -119,7 +122,7 @@ img{
     border: 3px solid black;
 }
 #code:hover{
-    border-color: lightseagreen;
+    border-color: yellow;
 }
 table{
     padding-top: 0;
@@ -164,7 +167,7 @@ fieldset{
     width: 30%;
     margin-top: 5%;
     border: black 1px solid;
-    background-color: darkgray;
+    background-color: cyan;
 }
 #sum:hover{
     background-color: black;
@@ -186,13 +189,13 @@ fieldset{
 #dresume{
     margin-top: 5%;
     border: black 1px solid;
-    background-color: darkgray;
+    background-image: linear-gradient(to bottom , gray, cyan);
+    color: black;
     font-size: 20px;
 
 }
 #dresume:hover{
-    background-color: black;
-    color: darkgray;
+    background-image: linear-gradient(to top , gray, cyan);
 }
 
 #dmail{
@@ -224,7 +227,7 @@ fieldset{
     color: darkgray;
 }
 #reflect2{
-    background-color: darkgray;
+    background-image: linear-gradient(to bottom right, gray, cyan);
     display: none;
     grid-column: 9/11;
     grid-row: 2;
@@ -233,25 +236,23 @@ fieldset{
     width: 50%;
     margin-top: 5%;
     border: black 1px solid;
-    background-color: darkgray;
+    background-image: linear-gradient(to bottom , gray, cyan);
     font-size: 20px;
 
 }
 #page1:hover{
-    background-color: black;
-    color: darkgray;
+    background-image: linear-gradient(to top , gray, cyan);
 }
 #page2{
     width: 40%;
     margin-top: 5%;
     border: black 1px solid;
-    background-color: darkgray;
+    background-image: linear-gradient(to bottom , gray, cyan);
     font-size: 20px;
 
 }
 #page2:hover{
-    background-color: black;
-    color: darkgray;
+    background-image: linear-gradient(to top , gray, cyan);
 }
 #cont_sec{
     text-align: center;
@@ -264,4 +265,7 @@ fieldset{
 }
 .amhead{
     font-size: 40px;
+}
+#resume:hover{
+    border-color: yellow;
 }

@@ -8,7 +8,7 @@ header{
     text-align: center;
     grid-column: 1/6;
     grid-row: 1;
-    padding-top: 5%;
+
 }
 #side1{
     grid-column: 2;
@@ -60,4 +60,18 @@ button{
 button:hover{
     background-color: black;
     color: gray;
+}
+#main{
+    display: none;
+    grid-column: 1/6;
+    grid-row: 2/4;
+    background-color: white;
+    border: black 5px solid;
+}
+.menu{
+    width: 50%;
+    height: 40%;
+}
+.new{
+    font-size: 30px;
 }
