@@ -125,6 +125,8 @@ img{
     border-color: yellow;
 }
 table{
+    width: 100%;
+    text-align: center;
     padding-top: 0;
 }
 td{
@@ -269,3 +271,4 @@ fieldset{
 #resume:hover{
     border-color: yellow;
 }
+/*done*/

@@ -28,6 +28,8 @@ section{
     grid-column: 9/11;
     grid-row: 2;
 }
+
+
 footer{
     background-color: darkgray;
     grid-column: 1/11;
